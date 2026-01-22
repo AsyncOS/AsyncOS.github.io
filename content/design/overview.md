@@ -44,6 +44,17 @@ weight: 1
 5. 开发原型系统，设计用户态测试用例库和操作系统动态分析跟踪工具，对异步操作系统的特征进行定量性的评估。
     * 周积萍 - [os-checker](https://github.com/os-checker/os-checker)（[在线分析结果和文档](https://os-checker.github.io)）：Rust内核组件的静态分析工具；
     * 陈志扬 - [code-debug](https://github.com/chenzhiy2001/code-debug)：支持Rust语言的源代码级内核调试工具
+## 技术分享
+
+- 20250913: 电子科技大学 杨长轲：[嵌入式异步实时操作系统embassy_preempt](https://www.yuque.com/xyong-9fuoz/hg8kgr/orddgx677bplf6pl#ciNZh)
+- 20250913: 明扬：[异步网卡驱动开发](https://www.yuque.com/xyong-9fuoz/hg8kgr/orddgx677bplf6pl#OIDDg)
+- 20250913: 北京理工大学 廖东海：[ReL4-高性能异步微内核设计与实现](https://www.yuque.com/xyong-9fuoz/hg8kgr/cxnbc2dhznprgaek#-1)
+- 20250913: 清华大学 赵方亮：[基于软硬协同的任务调度和中断响应研究](https://www.yuque.com/xyong-9fuoz/hg8kgr/cxnbc2dhznprgaek#CX9e8)
+- 20241025: 清华大学 田凯夫：[Skyloft: A General High-Efficient Scheduling Framework in User
+Space](https://www.yuque.com/xyong-9fuoz/hg8kgr/wkl7y122l8pwwyuo#IodVU)
+- 20241110: 电子科技大学 袁子为、施诺晖：[基于Rust异步机制的嵌入式操作系统调度模块embassy_preempt](https://www.yuque.com/xyong-9fuoz/hg8kgr/culbvrzfn9qu9lby#AlAhs)
+- 20241110: 北京理工大学 罗熙：[系统级线程协程统一管理与运行](https://www.yuque.com/xyong-9fuoz/hg8kgr/culbvrzfn9qu9lby#IodVU)
+- 20241110: 北京航空航天大学 陈伟豪：[基于用户态中断的异步系统调用框架设计](https://www.yuque.com/xyong-9fuoz/hg8kgr/culbvrzfn9qu9lby#kH0wk)
 
 # 异步操作系统中的基本概念
 
