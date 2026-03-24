@@ -27,22 +27,22 @@ weight: 1
     * 吴一凡 - [Exploring Asynchronous Operating System Design Using Rust](https://github.com/wyfcyx/MScAdvancedComputing/blob/main/IndividualProject/individual_project.pdf)
     * 杨德睿 - [fast-trap](https://github.com/YdrMaster/fast-trap)：裸机应用程序陷入处理流程的框架，旨在保证处理性能的同时尽量复用代码。
 3. 结合Rust语言编译器的异步支持技术，完善操作系统的进程、线程和协程概念，统一进程、线程和协程的调度机制；
-    * 王文智 - [轻量级的操作系统基本调度单位的设计与实现](https://github.com/AmoyCherry/graduate-materials/tree/main?tab=readme-ov-file#graduate-materials)：提出了一种将协程作系统级基本调度单位的调度模型，实现了一个相对独立的协程运行库，用于处理进程内的协程创建，调度和运行，可以被不同的操作系统引入使用。
     * 赵方亮 - [async-os](https://github.com/AsyncModules/async-os/branches)：支持TAIC中断控制器的异步操作系统；
     * 廖东海、李龙昊、朱懿、杨金博等 - [ReL4](https://github.com/reL4team2/rel4_kernel)（[在线文档](https://rel4team.github.io/zh/)）：seL4微内核的Rust重写和异步优化；
         * 赵方亮、廖东海 - [rCore-N](https://github.com/zflcs/rCore-N)：基于vDSO实现的共享协程调度器框架。它是UnifieldScheduler的后续工作。
     * 杨长轲 - [embassy_preempt](https://github.com/AoligeiY/embassy_preempt)：uCOSII的Rust重写和异步优化；
         * 袁子为、施诺晖 - [embassy_preempt](https://github.com/KMSorSMS/embassy_preempt)（[在线文档](https://kmsorsms.github.io/embassy_preempt/)）：用Rust语言在uCOS中扩展可抢占的协程支持；
-    * 王文智 - [UnifieldScheduler](https://github.com/AmoyCherry/UnifieldScheduler)：支持优先级的协程调度器框架；
+    * 王文智 - [轻量级的操作系统基本调度单位的设计与实现](https://github.com/AmoyCherry/graduate-materials/tree/main?tab=readme-ov-file#graduate-materials)：提出了一种将协程作系统级基本调度单位的调度模型，实现了一个相对独立的协程运行库，用于处理进程内的协程创建，调度和运行，可以被不同的操作系统引入使用。
+        * 王文智 - [UnifieldScheduler](https://github.com/AmoyCherry/UnifieldScheduler)：支持优先级的协程调度器框架；
     * 蒋周奇、车春池 - [tornado-os](https://github.com/HUST-OS/tornado-os)：基于共享调度器的异步内核
-5. 利用RISC-V平台的用户态中断和软硬协同技术，向应用程序提供的异步系统调用接口，优化操作系统的系统调用访问性能和操作系统的信号和进程通信性能；
+4. 利用RISC-V平台的用户态中断和软硬协同技术，向应用程序提供的异步系统调用接口，优化操作系统的系统调用访问性能和操作系统的信号和进程通信性能；
     * 赵方亮 - [TAIC](https://github.com/taic-repo/taic)：支持任务感知的中断控制器；
         * [taic-qemu](https://github.com/taic-repo/taic-qemu/tree/taic)：QEMU的TAIC支持扩展；
         * [taic-rocket-chip](https://github.com/taic-repo/taic-rocket-chip/tree/main)：FPGA上的支持TAIC的RISC-V软核；
     * 田凯夫 - [uintr](https://github.com/U-interrupt/uintr)：qemu模拟器上的RISC-V用户态中断设计与实现
     * 项晨东 - [usr-intr](https://github.com/OS-F-4/usr-intr)：qemu模拟器上的x86用户态中断支持
     * 尤予阳、贺鲲鹏 - [软硬协同的用户态中断](https://gallium70.github.io/rv-n-ext-impl/)
-6. 开发原型系统，设计用户态测试用例库和操作系统动态分析跟踪工具，对异步操作系统的特征进行定量性的评估。
+5. 开发原型系统，设计用户态测试用例库和操作系统动态分析跟踪工具，对异步操作系统的特征进行定量性的评估。
     * 周积萍 - [os-checker](https://github.com/os-checker/os-checker)（[在线分析结果和文档](https://os-checker.github.io)）：Rust内核组件的静态分析工具；
     * 陈志扬 - [code-debug](https://github.com/chenzhiy2001/code-debug)：支持Rust语言的源代码级内核调试工具
 ## 技术分享
